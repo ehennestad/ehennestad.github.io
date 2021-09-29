@@ -10,9 +10,9 @@ body {
 }
 .nav {
     padding: 30px;
-    background-color: black;
+    background-color: rgb(48,62,76);
 /*
-    background-color: black;
+    background-color: rgb(48,62,76);
     */
 }
 .content-right {
