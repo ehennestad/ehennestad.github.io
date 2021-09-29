@@ -4,8 +4,8 @@ body {
 .header {
     padding: 100px;
     text-align: center;
-    background: rgb(78, 54, 110);
-    color: rgb(219, 209, 209);
+    background: rgb(48,62,76);
+    color: rgb(234,236,237);
     font-size: 20px;
 }
 .nav {
@@ -60,9 +60,9 @@ body {
 
 .main {
   margin-left: 100px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
+  font-size: 22px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  color: rgb(223, 194, 194);
+  color: rgb(234, 236, 237);
   margin-right: 200px;
 }
 
