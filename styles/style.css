@@ -63,7 +63,7 @@ body {
   font-size: 22px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   color: rgb(234, 236, 237);
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 @media screen and (max-height: 450px) {
