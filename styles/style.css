@@ -4,15 +4,15 @@ body {
 .header {
     padding: 100px;
     text-align: center;
-    background: rgb(48,62,76);
-    color: rgb(234,236,237);
+    background: rgb(78, 54, 110);
+    color: rgb(219, 209, 209);
     font-size: 20px;
 }
 .nav {
     padding: 30px;
     background-color: #111;
 /*
-    background-color: rgb(48,62,76);
+    background-color: black;
     */
 }
 .content-right {
@@ -36,14 +36,15 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 300px;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 100px;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .sidenav a {
@@ -59,14 +60,50 @@ body {
 }
 
 .main {
-  margin-left: 100px; /* Same as the width of the sidenav */
-  font-size: 22px; /* Increased text to enable scrolling */
+  margin-left: 350px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  color: rgb(234, 236, 237);
-  margin-right: 100px;
+  color: rgb(223, 194, 194);
+  margin-right: 200px;
+  margin-top: 150px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+/* Link animation*/
+
+.underline{
+  position: relative;
+}
+
+.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0074D9;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before{
+    left: -30px;
+    right: auto;
+    width: 115%;
+  }
+}
+
+/* page scroll fix*/
+
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
