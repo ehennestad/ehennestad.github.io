@@ -108,6 +108,8 @@ h2::before {
   pointer-events: none;
 }
 
+/*Code snippet*/
+
 pre{
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   margin-bottom: 10px;
