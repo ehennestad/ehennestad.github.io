@@ -32,8 +32,13 @@ body {
 
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
     background-color: rgb(48,62,76) !important;
+    border-color: #8064A2;
 }
 
 
