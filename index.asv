@@ -108,8 +108,7 @@
             <div class="row">
                 <div class="col-xxl-6 justify-content-end content-right">
                     <h1>Fovmanager</h1>
-                    <p>Keep track of fov locations, injections spots in real world stereotaxic coordinates</p>
-                    <p>Visualize FoV and RoI statistics directly on map</p>
+                    <p>Keep track of fov locations, injections spots in </p>
                 </div>
                 <div class="col-xxl-6 justify-content-end content-right">
                     <img src="images/fovmanager.png" style="width: 50%" alt="">
