@@ -32,6 +32,10 @@ body {
 
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgb(48,62,76) !important;
+}
+
 
 .spacer {
     padding-left: 125px;
