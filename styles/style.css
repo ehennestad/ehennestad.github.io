@@ -29,6 +29,19 @@ body {
 }
 
 
+.spacer {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-align: center;
+    background: rgb(74,86,99);
+    color: white;
+}
+
+
+
 .content-right {
     padding-left: 125px;
     padding-right: 125px;
