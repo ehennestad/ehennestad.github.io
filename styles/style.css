@@ -32,10 +32,27 @@ body {
 
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
+
+.btn-primary {
+    background-color: rgb(48,62,76) !important;
+    border-color: rgb(48,62,76) !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(68,82,96) !important;
+    border-color: rgb(48,62,76) !important;
+}
+
+.btn-primary:active {
+    background-color: rgb(48,62,76) !important;
+    border-color: rgb(48,62,76) !important;
+}
+
+.btn-primary:visited {
+    background-color: rgb(48,62,76) !important;
+    border-color: rgb(48,62,76) !important;
+}
+
 .btn-primary:focus {
     background-color: rgb(48,62,76) !important;
     border-color: rgb(48,62,76) !important;
