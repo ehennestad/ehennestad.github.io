@@ -6,7 +6,7 @@ body {
     padding: 100px;
     text-align: center;
     background: rgb(234,236,237);
-    color: rgb(219, 209, 209);
+    color: rgb(48,62,76);
     font-size: 20px;
 }
 .nav {
@@ -17,6 +17,17 @@ body {
     */
 }
 
+.nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(234,236,237);
+}
+
+.nav a:hover {
+  color: rgb(224,226,227);
+}
+
 
 
 .content-right {
@@ -24,9 +35,10 @@ body {
     text-align: right;
     color: white;
 }
+
 .content-left {
     padding: 85px;
-    background: rgb(74, 47, 97);
+    background: rgb(74,86,99);
     text-align: left;
     color: white;
 }
