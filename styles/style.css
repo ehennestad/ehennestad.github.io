@@ -38,7 +38,7 @@ body {
 .btn-primary:visited,
 .btn-primary:focus {
     background-color: rgb(48,62,76) !important;
-    border-color: black;
+    border-color: black !important;
 }
 
 
