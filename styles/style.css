@@ -54,7 +54,7 @@ body {
 }
 
 .btn-primary:focus {
-    background-color: rgb(48,62,76) !important;
+    background-color: rgb(68,82,96) !important;
     border-color: rgb(48,62,76) !important;
 }
 
