@@ -16,12 +16,12 @@ body {
     */
 }
 .content-right {
-    padding: 185px;
+    padding: 85px;
     text-align: right;
     color: white;
 }
 .content-left {
-    padding: 185px;
+    padding: 85px;
     background: rgb(74, 47, 97);
     text-align: left;
     color: white;
