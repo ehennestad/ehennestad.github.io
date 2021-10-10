@@ -62,6 +62,11 @@ body {
 }
 
 .content-left {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     padding-left: 125px;
     padding-right: 125px;
     padding-top: 75px;
