@@ -30,13 +30,21 @@ body {
 
 
 .content-right {
-    padding: 85px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
     text-align: right;
     color: rgb(48,62,76);
 }
 
 .content-left {
-    padding: 85px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
     background: rgb(74,86,99);
     text-align: left;
     color: white;
