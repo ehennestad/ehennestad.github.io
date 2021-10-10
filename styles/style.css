@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(37, 32, 51);
+    background-color: rgb(234,236,237);
 }
 .header {
     padding: 100px;
     text-align: center;
-    background: rgb(78, 54, 110);
+    background: rgb(74,86,99);
     color: rgb(219, 209, 209);
     font-size: 20px;
 }
 .nav {
     padding: 30px;
-    background-color: #111;
+    background-color: rgb(48,62,76);
+    color: rgb(234,236,237);
 /*
     background-color: black;
     */
