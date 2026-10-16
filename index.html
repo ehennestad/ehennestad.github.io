@@ -1,178 +1,357 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Nansen</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="/styles/style.css">
-    </head>
-    <body>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><img src="images/nansen_logo1.png" style="height: 20px"/></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><h3>About</h3></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/sub/documentation.html"><h3>Documentation</h3></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><h3>Download</h3></a>
-            </li>
-          </ul>
-          
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eivind Hennestad – MATLAB Consulting</title>
+    <meta name="description" content="Consulting for MATLAB repositories: refactoring, new development, and continuous integration with GitHub Actions.">
+    <style>
+        :root {
+            --bg: #fbfaf8;
+            --surface: #ffffff;
+            --text: #1d2125;
+            --muted: #5b636b;
+            --border: #e3e0da;
+            --accent: #c4561d;
+            --accent-text: #ffffff;
+            --tag-bg: #f3ece6;
+        }
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-12 header">
-                   <h1>Nansen</h1>
-                    <p> NANSEN (Neuroscience ANalysis Software ENsemble) is a package with modules for building a complete processing pipeline and exploring data using interactive graphical user interfaces.</p>
-                    <p>Currently available modules include existing toolboxes widely used by the neuroscience community, such as NoRMCorre, CaImAn and Suite2P</p>
-                    <br>
-                </div>
-            </div>
-        </div>
-        
- 
-        
-        <!--Test Section Cards : Something random here -->
-        
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xxl-2 mx-5 justify-content-center card">
-                      <div class="card-body">
-                        <h5 class="card-title">Motion Correction</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                </div>
-                <div class="col-xxl-2 mx-5 justify-content-center card">
-                      <div class="card-body">
-                        <h5 class="card-title">Roi Annotation</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                </div>
-                <div class="col-xxl-2 mx-5 justify-content-center card">
-                      <div class="card-body">
-                        <h5 class="card-title">Roi Autosegmentation</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                </div>
-                <div class="col-xxl-2 mx-5 justify-content-center card">
-                      <div class="card-body">
-                        <h5 class="card-title">General Image Processing</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                </div>
-            </div>
-        </div>
-        
-        <!--Main Section 1 : SessionBrowser-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-8 justify-content-end content-right">
-                    <img src="images/demo_gif.gif" style="width: 80%"/>
-                </div>
-                
-                <div class="col-xxl-4 justify-content-end content-right">
-                    <h1>Session Browser</h1>
-                    <p>Interactive table with sorting and filtering capabilities</p>
-                    <p>Create metadata collections for specialized analysis pipelines</p>
-                    <p>Run prepackaged methods in batch</p>
-                </div>   
-                
-            </div>
-        </div>
-        
-        <!--Main Section 2 : Imviewer-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-6 justify-content-end content-left">
-                    <h1>Imviewer</h1>
-                    <p>Open and explore image arrays or virtual image stacks.</p>
-                    <p>Open and configure motion correction tools like NoRMCorre or FlowRegistration</p>
-                    <p>Manually annotate rois or run autosegmentation algorithms like CNMF, Suite2P or EXTRACT</p>
-                </div>
-                
-                <div class="col-xxl-6 justify-content-end content-left">
-                    <img src="images/imviewer.png" style="width: 65%"/>
-                </div>   
-                
-            </div>
-        </div>
-        
-        
-        <!--Main Section 3 : Signalviewer-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-12 justify-content-end content-right">
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                --bg: #15181b;
+                --surface: #1d2125;
+                --text: #e9e7e3;
+                --muted: #a3aab1;
+                --border: #2f353b;
+                --accent: #ee8a4f;
+                --accent-text: #15181b;
+                --tag-bg: #2a2622;
+            }
+        }
 
-                    <!--Innhold her-->
-                    <h1>Signal Viewer</h1>
-                    <p>Interactively view and process signals</p>
-                    <img src="images/signalviewer.png" style="width: 100%"/>
+        :root[data-theme="dark"] {
+            --bg: #15181b;
+            --surface: #1d2125;
+            --text: #e9e7e3;
+            --muted: #a3aab1;
+            --border: #2f353b;
+            --accent: #ee8a4f;
+            --accent-text: #15181b;
+            --tag-bg: #2a2622;
+        }
 
-                </div>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .wrap {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        header.top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 0;
+            gap: 16px;
+        }
+
+        .name {
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text);
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: var(--text);
+        }
+
+        .hero {
+            padding: 56px 0 64px;
+        }
+
+        .eyebrow {
+            color: var(--accent);
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin: 0 0 12px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            line-height: 1.15;
+            margin: 0 0 20px;
+            max-width: 20ch;
+        }
+
+        .lead {
+            font-size: 20px;
+            color: var(--muted);
+            max-width: 60ch;
+            margin: 0 0 32px;
+        }
+
+        .button {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--accent-text);
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .button:hover {
+            filter: brightness(1.08);
+        }
+
+        section {
+            padding: 48px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin: 0 0 8px;
+        }
+
+        .section-intro {
+            color: var(--muted);
+            margin: 0 0 28px;
+            max-width: 60ch;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+
+        .card p {
+            margin: 0 0 12px;
+        }
+
+        .card ul {
+            margin: 0;
+            padding-left: 20px;
+            color: var(--muted);
+        }
+
+        .card li {
+            margin-bottom: 4px;
+        }
+
+        .role {
+            color: var(--muted);
+            font-size: 15px;
+            margin: 0 0 12px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 16px;
+        }
+
+        .tag {
+            background: var(--tag-bg);
+            border-radius: 999px;
+            padding: 2px 10px;
+            font-size: 13px;
+        }
+
+        .card .repo-link {
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .about p,
+        .contact p {
+            max-width: 65ch;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 24px 0 40px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        @media (max-width: 560px) {
+            header.top {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav a {
+                margin: 0 16px 0 0;
+            }
+
+            .hero {
+                padding: 24px 0 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="top">
+            <a class="name" href="#">Eivind Hennestad</a>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="hero">
+                <p class="eyebrow">MATLAB software consulting</p>
+                <h1>Turn your MATLAB code into software people can rely on.</h1>
+                <p class="lead">
+                    I help research groups and companies refactor existing MATLAB repositories, write new code,
+                    and set up continuous integration so every change is tested before it lands.
+                </p>
+                <a class="button" href="mailto:ehennestad@gmail.com?subject=MATLAB%20consulting">Get in touch</a>
             </div>
-        </div>
-        
-        
-        <!--Main Section 4 : Dashboards-->
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xxl-12 justify-content-end content-left">
-                    <h1>Dashboards</h1>
-                    <img src="images/roimanager.png" style="width: 60%"/>
-                
-                </div>
-            </div>
-        </div>
-        
-        
-        <!--Main Section 5 : FOV Manager -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-6 justify-content-end content-right">
-                    <h1>Fovmanager</h1>
-                    <p>Keep track of fov locations, injections spots in real world stereotaxic coordinates</p>
-                    <p>Visualize FoV and RoI statistics directly on map</p>
-                </div>
-                <div class="col-xxl-6 justify-content-end content-right">
-                    <img src="images/fovmanager.png" style="width: 60%" alt="">
-                </div>
-            </div>
-        </div>
-        
-        
-        <footer>
-            <div class="container-fluid footer">
-                <div class="row">
-                    <div class="col-xxl-4">
-                        <h3>Kontaktinfo</h3>
+
+            <section id="services">
+                <h2>Services</h2>
+                <p class="section-intro">Work can be a one-off project or ongoing support for a code base.</p>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Refactoring</h3>
+                        <p>Make an existing code base easier to read, change and share.</p>
+                        <ul>
+                            <li>Scripts into functions, classes and namespaces</li>
+                            <li>Clear interfaces with input validation</li>
+                            <li>Removal of duplication and dead code</li>
+                            <li>Tests written first, so behaviour stays the same</li>
+                        </ul>
                     </div>
-                    <div class="col-xxl-4">
-                        <h3>Hello</h3>
+                    <div class="card">
+                        <h3>New development</h3>
+                        <p>Design and write new MATLAB code to a professional standard.</p>
+                        <ul>
+                            <li>Toolboxes, data models and API clients</li>
+                            <li>Apps and interactive figures</li>
+                            <li>Packaging as installable toolboxes</li>
+                            <li>Documentation and examples</li>
+                        </ul>
                     </div>
-                    <div class="col-xxl-4">
-                        <h3>Hello</h3>
-                        <p></p>
+                    <div class="card">
+                        <h3>Continuous integration</h3>
+                        <p>Automated checks on GitHub Actions for every push and pull request.</p>
+                        <ul>
+                            <li>MATLAB unit tests across releases and platforms</li>
+                            <li>Code coverage and Code Analyzer reports</li>
+                            <li>Spell checking and status badges</li>
+                            <li>Automated packaging and releases</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </footer>  
+            </section>
 
-        <p><h1></h1></p>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    </body>
+            <section id="work">
+                <h2>Selected work</h2>
+                <p class="section-intro">Open-source MATLAB projects I maintain or lead. Each runs its tests and checks in CI.</p>
+                <div class="grid">
+                    <div class="card">
+                        <h3><a class="repo-link" href="https://github.com/NeurodataWithoutBorders/matnwb">MatNWB</a></h3>
+                        <p class="role">Maintainer</p>
+                        <p>The MATLAB interface for reading and writing Neurodata Without Borders (NWB) files, a standard
+                            format for neurophysiology data.</p>
+                        <div class="tags">
+                            <span class="tag">Test suite</span>
+                            <span class="tag">Docs build</span>
+                            <span class="tag">Release workflow</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3><a class="repo-link" href="https://github.com/openMetadataInitiative/openMINDS_MATLAB">openMINDS_MATLAB</a></h3>
+                        <p class="role">Lead developer</p>
+                        <p>A MATLAB toolbox for creating openMINDS-compliant linked metadata, distributed on MATLAB
+                            File Exchange.</p>
+                        <div class="tags">
+                            <span class="tag">Test suite</span>
+                            <span class="tag">Code coverage</span>
+                            <span class="tag">Release workflow</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3><a class="repo-link" href="https://github.com/VervaekeLab/NANSEN">NANSEN</a></h3>
+                        <p class="role">Lead developer</p>
+                        <p>Apps and modules for processing, analysing and visualising two-photon imaging data
+                            (Hennestad et al., 2022).</p>
+                        <div class="tags">
+                            <span class="tag">Test suite</span>
+                            <span class="tag">Code coverage</span>
+                            <span class="tag">Spell check</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <h2>About</h2>
+                <p>
+                    I am a neuroscientist with a background in systems and rodent neurophysiology and ten years of
+                    MATLAB experience. I know how research code grows, and what it takes to make it maintainable
+                    without slowing the science down.
+                </p>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact</h2>
+                <p>
+                    Tell me briefly about your repository and what you would like to change. I will reply with
+                    questions or a suggested next step.
+                </p>
+                <p>
+                    <a class="button" href="mailto:ehennestad@gmail.com?subject=MATLAB%20consulting">ehennestad@gmail.com</a>
+                </p>
+                <p>Code: <a href="https://github.com/ehennestad">github.com/ehennestad</a></p>
+            </section>
+        </main>
+
+        <footer>© 2026 Eivind Hennestad</footer>
+    </div>
+</body>
 </html>
